@@ -8,6 +8,9 @@ float avgMarks;
 };
 typedef struct student stud;
 
+void insertStudentDetails(stud *); //Function Declaration
+void printStudentDetails(stud *s); //Function Declaration
+
 int main(void)
 {
 
