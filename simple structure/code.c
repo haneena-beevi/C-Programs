@@ -25,9 +25,9 @@ void insertStudentDetails(stud *s)
         for(int i=0;i<5;i++)
         {
                 printf("Enter the Roll No. Of Student:");
-                scanf("%s",&s[i].rollNo);
+                scanf("%s",s[i].rollNo);
                 printf("Enter the Name of the student:");
-                scanf("%s",&s[i].name);
+                scanf("%s",s[i].name);
                 printf("Enter the 3 subjects marks:");
                 scanf("%d%d%d",&s[i].mark1,&s[i].mark2,&s[i].mark3);
                 s[i].avgMarks=(s[i].mark1+s[i].mark2+s[i].mark3)/3;
